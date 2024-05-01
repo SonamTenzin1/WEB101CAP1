@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/91b78805ef6c45ad25ff82f90688eceb.png">
+  <title>Pokédex</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="copyright"> &copy; Sonam Tenzin</div>
+  <section class="headings">
+    <div class="pokeheader">
+      <img src="assets/Pokédex_logo.png" class="pokedeximg">
+    </div>
+  </section>
+  <!-- <hr> -->
+
+  <section class="pokesearch">
+    <div class="navbar">
+      <button id="searchbtn" class="searchbtn"><input type="text" placeholder="Search for Pokémon Here">Search</button><br>
+    </div>
+
+    <div class="pokelist">
+      <h3>Pokémon List</h3>
+      <ul id="pokelist" class="pokelist"></ul>
+    </div>
+
+    <div id="pokeDetails" style="display: none;">
+      <img src="" alt="">
+      <p class="Types">Type:</p>
+      <p class="Height">Height;:</p>
+      <p class="Weight">Weight</p>
+      <p class="Base experience">Base experience:</p>
+      <p class="Abilities">Abilities:</p>
+      <p class="Stats">Stats:</p>
+    </div>
+  </section>
+
+  <script src="index.js"></script>
+</body>
+</html>

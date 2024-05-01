@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+        background: url(https://i.pinimg.com/originals/f5/05/f5/f505f5040274b97cd5114f9ff3ab8b99.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;    
+}
+
+.headings{
+    display: flex;
+    flex-direction: row; 
+    justify-content:center;
+    margin: 1.2rem;
+}
+
+.copyright{
+    color:white
+}
+
+.pokelist{
+    color: white;
+}
+.navbar{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.pokeDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    color: white;
+}
+
