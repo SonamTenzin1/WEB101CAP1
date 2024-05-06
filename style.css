@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: green;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 0;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .main {
+    margin: 0 auto;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 100px;
+    padding-top: 50px;
+  }
+  
+  .logo img {
+    width: 150px;
+    height: 150px;
+    margin-right: 0px;
+    border-radius: 70%;
+  }
+  
+  .pokecard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2px;
+    padding: 2px;
+    text-align: center;
+    color: white;
+  }
+  
+  .pokecard img {
+    background-color: white;
+
+  }
+  
+  .pokecard img:hover {
+    transform: scale(1.7);
+  }
+  
+  .card {
+    width: 200px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 50px;
+  }
+  
+  .card-header h1 {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .card-body p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .card-body span {
+    font-weight: bold;
+  }
+  
