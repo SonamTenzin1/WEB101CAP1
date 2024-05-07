@@ -1,15 +1,15 @@
-async function fetchPokemonData(url) {
+async function fetchPokemon(url) {
     const response = await fetch(url);
     const data = await response.json();
     return data;
 }
 
-async function createPokemonCards() {
-    const pokemonData = await fetchPokemonData('https://pokeapi.co/api/v2/pokemon?limit=1000');
+async function createCards() {
+    const pokemonData = await fetchPokemon('https://pokeapi.co/api/v2/pokemon?limit=1000');
     const pokecard = document.querySelector('.pokecard');
 
     pokemonData.results.forEach(async (pokemon) => {
-        const pokemonDetails = await fetchPokemonData(pokemon.url);
+        const pokemonDetails = await fetchPokemon(pokemon.url);
         const card = document.createElement('div');
         card.classList.add('card');
         card.innerHTML = `
@@ -22,5 +22,5 @@ async function createPokemonCards() {
     });
 }
 
-createPokemonCards();
+createCards();
 
